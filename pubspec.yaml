@@ -1,0 +1,52 @@
+name: blogexplorer
+description: A new Flutter project.
+publish_to: 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  cached_network_image: ^3.3.0
+  hive: ^2.2.3
+  hive_flutter:
+  provider:
+  flutter_launcher_icons:
+  flutter_native_splash: 
+  connectivity_plus: ^4.0.2
+  quickalert: ^1.0.2
+  loading_animation_widget: ^1.2.0+4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: 
+  build_runner:
+
+# flutter_native_splash:
+#   background_image: "assets/images/splashscreen.jpg"
+#   android_12: 
+#     background_image: "assets/images/splashscreen.jpg"
+#     android: true
+#   ios: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icons/ic_launcher.png"
+  adaptive_icon_background: "assets/images/icons/ic_launcher_background.png"
+  adaptive_icon_foreground: "assets/images/icons/ic_launcher_foreground.png"
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: "assets/fonts/Poppins-Regular.ttf"
+
+
